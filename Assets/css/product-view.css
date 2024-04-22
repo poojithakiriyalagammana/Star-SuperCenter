@@ -1,0 +1,168 @@
+
+.container{
+    display: flex;
+    max-width: 7500px;
+    background: #fff;
+    border-radius: 12px;
+    justify-content: space-between;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 1.5);
+    position: sticky;
+  }
+  .container::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    clip-path: circle(65% at right 35%);
+    background: rgb(0,0,0);
+    background: linear-gradient(304deg, rgba(0,0,0,1) 0%, rgb(213, 213, 213) 100%);
+  }
+  .container .box.one{
+    padding: 35px 5px 0px 35px;
+  }
+  .box.one .details .topic{
+    font-size: 30px;
+    font-weight: 700;
+
+  }
+  .box.one .details p{
+    color: #464646;
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .box.one .price-box{
+    margin-top: 16px;
+  }
+  .box.one .discount{
+    font-size: 20px;
+    margin: 10px 0 0 12px;
+    position: relative;
+    color: #fa0000;
+  }
+  .box.one .discount:before{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background: #ab0101;
+    top: 50%;
+    left: -8px;
+  }
+  .box.one .small{
+        color: #b42040;
+        margin: 10px 0 0 12px;
+        font-size: 25px;
+        font-weight: 700;
+}
+
+  .box.one .price{
+    color: #0b6e0b;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .box.one .button1{
+    margin-top: 0.1px;
+  }
+  .box.one .button1 button{
+    outline: none;
+    border:none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    background: #07b134;
+    border: 3px solid #000000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .button1 button:hover{
+    transform: scale(0.98);
+  }
+  .container .box.two .image{
+    position: relative;
+    right: 65px;
+    top:100px;
+    height: 340px;
+    width: 430px;
+  }
+  .image img{
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+
+  }
+  .container .box.two .image-box{
+    position: relative;
+    text-align: right;
+    right: 0;
+    bottom: 27px;
+  }
+  .box.two .image-box .info{
+    margin: 0 35px 0 0;
+  }
+  .box.two .info .brand{
+   font-size: 17px;
+   font-weight: 600;
+   color: #000000;
+  }
+  .box.two .info .name{
+   font-size: 35px;
+   font-weight: 700;
+   color: #fff;
+  }
+  .box.two .info span{
+   font-size: 14px;
+   font-weight: 400;
+   color: #ffffff;
+  }
+  .box.two .button2{
+    margin: 80px 10px;
+    margin-bottom: 1px;
+
+  }
+  .button2 button {
+
+    outline: none;
+    color: #fff;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 10px 17px;
+    background-color: #ac0000;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    
+  }
+  .button2 button:hover{
+    color: #ffffff;
+    background-color: #ff0000;
+    border: 1px solid #ffffff;
+
+  }
+  .qty .form-control{
+    border: 1px solid #000;
+    margin: 50px .1px ;
+    padding: 8px 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    width: 70px;    
+    text-align: center;
+   }
+ 
+  .qty .group-text{
+    color: #000000;
+    font-weight: 700;
+    background-color: #bababa;
+    border-radius: 6px;
+    padding: 8px 10px;
+    cursor: pointer;        
+  }
+  
