@@ -23,7 +23,7 @@ This guide explains how to upload a Web Application Development (WAD) database t
 ### 3. Create a New Database in phpMyAdmin
 
 1. Click the **Databases** tab.
-2. Enter a name for your new database (e.g., `wad_database`).
+2. Enter a name for your new database (e.g., `waddatabase`).
 3. Click **Create**.
 
 ### 4. Import the WAD Database
